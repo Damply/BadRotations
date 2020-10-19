@@ -360,7 +360,7 @@ br.lists.spells = {
                 deathPact                   = 48743,
                 deathsReach                 = 276079,
                 defile                      = 152280,
-                ebonFever                   = 207269,              
+                ebonFever                   = 207269,
                 gripOfTheDead               = 273952,
                 harbingerOfDoom             = 276023,
                 infectedClaws               = 207272,
@@ -371,7 +371,7 @@ br.lists.spells = {
                 summonGargoyle              = 49206,
                 unholyAssault               = 207289,
                 unholyBlight                = 115989,
-                
+
             },
             traits                          = {
                 magusOfTheDead              = 288417,
@@ -442,14 +442,13 @@ br.lists.spells = {
 
             },
             buffs                           = {
-                innerDemon                  = 337313,
                 metamorphosis               = 162264,
                 momentum                    = 208628,
                 prepared                    = 203650,
-                unboundChaos                = 234059,
+                innerDemon                  = 337313,
             },
             debuffs                         = {
-                essenceBreak                = 258860,
+                darkSlash                   = 258860,
             },
             glyphs                          = {
 
@@ -541,20 +540,6 @@ br.lists.spells = {
                 voidReaver                  = 268175,
             },
         },
-        -- Initial Demon Hunter 8-10
-        [1456] = {
-            abilities                       = {
-                chaosStrike                 = 162794,
-                demonsBite                  = 162243,
-                felRush                     = 195072,
-            },
-            buffs                           = {
-
-            },
-            debuffs                         = {
-
-            },
-        },
         -- All
         Shared = {
             abilities                       = {
@@ -570,7 +555,6 @@ br.lists.spells = {
 
             },
             buffs                           = {
-                felCrystalInfusion          = 193547,
                 gazeOfTheLegion             = 193456,
                 glide                       = 131347,
                 immolationAura              = 258920,
@@ -1797,19 +1781,18 @@ br.lists.spells = {
                 cleanse                     = 4987,
                 consecration                = 26573,
                 divineProtection            = 498,
-				hammerOfWrath               = 24275,
+                hammerOfWrath               = 24275,
                 holyLight                   = 82326,
                 holyShock                   = 20473,
                 judgment                    = 275773,
                 lightOfDawn                 = 85222,
                 lightOfTheMartyr            = 183998,
-				shieldOfTheRighteous        = 53600,
-                wordOfGlory					= 85673,
             },
             artifacts                       = {
 
             },
             buffs                           = {
+                auraOfMercy                 = 183415,
                 auraMastery                 = 31821,
                 avengingWrath               = 31884,
                 avengingWrathCrit           = 294027,
@@ -2041,7 +2024,6 @@ br.lists.spells = {
                 mindbender                  = 123040,
                 mindBlast                   = 8092,
                 mindControl                 = 205364,
-                mindSear                    = 48045,
                 mindVision                  = 2096,
                 painSuppression             = 33206,
                 penance                     = 47540,
@@ -2699,7 +2681,7 @@ br.lists.spells = {
             -- },
         },
     },
- SHAMAN = {
+    SHAMAN = {
         -- Elemental
         [262] = {
             abilities                       = {
@@ -2809,11 +2791,11 @@ br.lists.spells = {
                 earthenSpike                = 188089,
                 feralLunge                  = 196884,
                 feralSpirit                 = 51533,
-                flametongue                 = 318038,
+                flametongue                 = 193796,
                 flameShock                  = 188389,
                 frostShock                  = 196840,
                 furyOfAir                   = 197211,
-                healingSurge                = 8004,
+                healingSurge                = 188070,
                 lavaLash                    = 60103,
                 lightningBolt               = 188196,
                 lightningShield             = 192106,
@@ -2822,7 +2804,6 @@ br.lists.spells = {
                 stormstrike                 = 17364,
                 sundering                   = 197214,
                 totemMastery                = 262395,
-                windFuryWeapon              = 33757,
                 windstrike                  = 115356, --17364,
                 windFuryTotem               = 8512,
             },
@@ -2890,7 +2871,7 @@ br.lists.spells = {
                 strengthOfTheEarth          = 273461,
             },
         },
-       -- Restoration
+        -- Restoration
         [264] = {
             abilities                       = {
              --   ancestralGuidance           = 108281,
@@ -2903,16 +2884,17 @@ br.lists.spells = {
                 downpour                    = 207778,
                 earthShield                 = 974,
                 earthenWallTotem            = 198838,
-                flameShock                  = 188389,
+                flameShock                  = 188838,
               --  giftOfTheQueen              = 207778,
                 healingRain                 = 73920,
                 healingSurge                = 8004,
                 healingStreamTotem          = 5394,
+                waterShield                 = 52127,
                 healingTideTotem            = 108280,
                 healingWave                 = 77472,
                 heroism                     = 32182,
                 lavaBurst                   = 51505,
-                lightningBolt               = 188196,
+                lightningBolt               = 403,
                 purifySpirit                = 77130,
                 riptide                     = 61295,
                 spiritLinkTotem             = 98008,
@@ -2931,11 +2913,13 @@ br.lists.spells = {
                 lavaSurge                   = 77762,
                 riptide                     = 61295,
                 tidalWaves                  = 53390,
+                undulation                  = 216251,
                 unleashLife                 = 73685,
                 spiritwalkersGrace          = 79206,
+                waterShield                 = 52127,
             },
             debuffs                         = {
-                flameShock                  = 188389,
+                flameShock                  = 188838,
             },
             glyphs                          = {
             },
@@ -2946,37 +2930,16 @@ br.lists.spells = {
                 cloudburstTotem             = 157153,
                 downpour                    = 207778,
                 earthenWallTotem            = 198838,
+                --earthShield                 = 974,
                 echoOfTheElements           = 108283,
                -- gustOfWind                  = 192063,
                 highTide                    = 157154,
                 unleashLife                 = 73685,
                 wellspring                  = 197995,
                 windRushTotem               = 192077,
-            },
-        },
-        [1444] =  {
-            abilities                       = {
-                chainLightning              = 188443,
-                flameShock                  = 188389,
-                flametongue                 = 318038,
-                healingSurge                = 8004,
-                lightningBolt               = 188196,
-                lightningShield             = 192106,
-                primalStrike                = 73899,
-            },
-            buffs                           = {
-                lightningShield             = 192106,
+                surgeOfEarth                = 320746,
+                earthGrabTotem              = 51485,
 
-            },
-            debuffs                         = {
-                flameShock                  = 188389,
-
-            },
-            glyphs                          = {
-
-            },
-            talents                         = {
-                
             },
         },
         -- All
@@ -3010,7 +2973,7 @@ br.lists.spells = {
 
             },
             talents                         = {
-                earthShield                 = 974,
+                --earthShield                 = 974,
                 naturesGuardian             = 30884,
                 spiritWolf                  = 260878,
                 staticCharge                = 265046,
@@ -3025,6 +2988,7 @@ br.lists.spells = {
                 agony                       = 980,
                 commanddemon                = 119898,
                 corruption                  = 172,
+                createHealthstone           = 6201,
                 darkSoul                    = 113860,
                 deathbolt                   = 264106,
                 demonicGateway              = 311699,
@@ -3128,6 +3092,7 @@ br.lists.spells = {
                 bilescourgeBombers          = 267211,
                 callDreadstalkers           = 104316,
                 commandDemon                = 119898,
+                createHealthstone           = 6201,
                 demonbolt                   = 264178,
                 demonicEmpowerment          = 193396,
                 demonicStrength             = 267171,
@@ -3198,6 +3163,7 @@ br.lists.spells = {
                 channelDemonfire            = 196447,
                 chaosBolt                   = 116858,
                 conflagrate                 = 17962,
+                createHealthstone           = 6201,
                 darkSoul                    = 113858,
                 devourMagic                 = 19505,
                 dimensionalRift             = 196586,
@@ -3264,6 +3230,7 @@ br.lists.spells = {
             abilities                       = {
                 controlDemon                = 93375,
                 corruption                  = 172,
+                createHealthstone           = 6201,
                 curseOfWeakness             = 702,
                 drainLife                   = 234153,
                 shadowBolt                  = 686,
@@ -3280,7 +3247,6 @@ br.lists.spells = {
         -- All
         Shared = {
             abilities                       = {
-                createHealthstone           = 6201,
                 darkPact                    = 108416,
                 demonicCircle               = 48018,
                 devourMagic                 = 19505,
@@ -3411,7 +3377,7 @@ br.lists.spells = {
                 deathWish                   = 199261,
                 enragedRegeneration         = 184364,
                 execute                     = 5308,
-                onslaught                   = 315720,
+                furiousSlash                = 100130,
                 piercingHowl                = 12323,
                 ragingBlow                  = 85288,
                 rampage                     = 184367,
@@ -3425,6 +3391,7 @@ br.lists.spells = {
             buffs                           = {
                 deathWish                   = 199261,
                 enrage                      = 184362,
+                furiousSlash                = 202539,
                 meatCleaver                 = 85739,
                 recklessness                = 1719,
                 suddenDeath                 = 280776,
@@ -3437,27 +3404,23 @@ br.lists.spells = {
 
             },
             talents                         = {
-                warMachine                  = 346002,
-                suddenDeath                 = 280721,
-                freshMeat                   = 215568,
-                doubleTime                  = 103827,
-                impendingVictory            = 202168,
-                stormBolt                   = 107570,
-                massacre                    = 206315,
-                frenzy                      = 335077,
-                onslaught                   = 315720,
-                furiousCharge               = 202224,
-                boundingStride              = 202163,
-                warpaint                    = 208154,
-                seethe                      = 335091,
-                frothingBerserker           = 215571,
-                cruelty                     = 335070,
-                meatCleaver                 = 280392,
-                dragonRoar                  = 118000,
                 bladestorm                  = 46924,
-                angerManagement             = 152278,
+                carnage                     = 202922,
+                doubleTime                  = 103827,
+                dragonRoar                  = 118000,
+                endlessRage                 = 202296,
+                freshMeat                   = 215568,
+                frothingBerserker           = 215571,
+                furiousCharge               = 202224,
+                furiousSlash                = 100130,
+                innerRage                   = 215573,
+                massacre                    = 206315,
+                meatCleaver                 = 280392,
                 recklessAbandon             = 202751,
                 siegebreaker                = 280772,
+                suddenDeath                 = 280721,
+                warMachine                  = 262231,
+                warpaint                    = 208154,
             },
             traits                          = {
                 coldSteelHotBlood           = 288080
