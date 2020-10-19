@@ -165,6 +165,7 @@ br.lists.spells = {
                 asphyxiate                  = 221562,
                 bloodBoil                   = 50842,
                 bloodMirror                 = 206977,
+                bloodTap                    = 221699,
                 blooddrinker                = 206931,
                 bonestorm                   = 194844,
                 consumption                 = 205223,
@@ -208,7 +209,6 @@ br.lists.spells = {
                 dancingRuneWeapon           = 81256,
                 runeTap                     = 194679,
                 hemostasis                  = 273947,
-                ossuary						= 219786,
                 tombstone                   = 219809,
                 vampiricBlood               = 55233,
             },
@@ -224,15 +224,17 @@ br.lists.spells = {
             talents                         = {
                 antimagicBarrier            = 205727,
                 blooddrinker                = 206931,
-                bloodTap                    = 221699,
                 bloodworms                  = 195679,
                 bonestorm                   = 194844,
                 consumption                 = 274156,
                 foulBulwark                 = 206974,
                 markOfBlood                 = 206940,
+                ossuary                     = 219786,
                 purgatory                   = 114556,
                 rapidDecomposition          = 194662,
                 redThirst                   = 205723,
+                runeTap                     = 194679,
+                runeStrike                  = 210764,
                 tighteningGrasp             = 206970,
                 tombstone                   = 219809,
                 voracious                   = 273953,
@@ -246,7 +248,6 @@ br.lists.spells = {
                 chainsOfIce                 = 45524,
                 empowerRuneWeapon           = 47568,
                 frostStrike                 = 49143,
-                frostwyrmsFury              = 279302,
                 howlingBlast                = 49184,
                 obliterate                  = 49020,
                 pillarOfFrost               = 51271,
@@ -285,6 +286,7 @@ br.lists.spells = {
                 deathPact                   = 48743,
                 deathsReach                 = 276079,
                 frostscythe                 = 207230,
+                frostwyrmsFury              = 279302,
                 frozenPulse                 = 194909,
                 gatheringStorm              = 194912,
                 glacialAdvance              = 194913,
@@ -341,7 +343,7 @@ br.lists.spells = {
                 chainsOfIce                 = 45524,
                 festeringWound              = 194310,
                 -- necroticStrike              = 223829,
-                -- outbreak                    = 77575,
+                outbreak                    = 77575,
                 -- scourgeOfWorlds             = 191748,
                 soulReaper                  = 343294,
                 virulentPlague              = 191587,
@@ -358,7 +360,7 @@ br.lists.spells = {
                 deathPact                   = 48743,
                 deathsReach                 = 276079,
                 defile                      = 152280,
-                ebonFever                   = 207269,              
+                ebonFever                   = 207269,
                 gripOfTheDead               = 273952,
                 harbingerOfDoom             = 276023,
                 infectedClaws               = 207272,
@@ -369,7 +371,7 @@ br.lists.spells = {
                 summonGargoyle              = 49206,
                 unholyAssault               = 207289,
                 unholyBlight                = 115989,
-                
+
             },
             traits                          = {
                 magusOfTheDead              = 288417,
@@ -2775,6 +2777,7 @@ br.lists.spells = {
                 --ancestralSwiftness          = 192087,
                 ascendance                  = 114050,
                 earthenRage                 = 170374,
+                earthShield                 = 974,
                 echoOfTheElements           = 333919,
                 echoingShock                = 320125,
                 elementalBlast              = 117014,
@@ -2873,6 +2876,7 @@ br.lists.spells = {
                 ascendance                  = 114051,
                 crashingStorm               = 192246,
                 earthenSpike                = 188089,
+                earthShield                 = 974,
                 elementalSpirits            = 262624,
                 feralLunge                  = 196884,
                 forcefulWinds               = 262647,
@@ -2900,6 +2904,7 @@ br.lists.spells = {
                 cloudburstTotem             = 157153,
                 downpour                    = 207778,
                 earthShield                 = 974,
+                waterShield                 = 52127,
                 earthenWallTotem            = 198838,
                 flameShock                  = 188389,
               --  giftOfTheQueen              = 207778,
@@ -2924,6 +2929,7 @@ br.lists.spells = {
                 ascendance                  = 114052,
                 cloudburstTotem             = 157504,
                 earthShield                 = 974,
+                waterShield                 = 52127,
                 healingRain                 = 73920,
                 jonatsFocus                 = 210607,
                 lavaSurge                   = 77762,
@@ -2974,7 +2980,7 @@ br.lists.spells = {
 
             },
             talents                         = {
-                
+
             },
         },
         -- All
@@ -3008,7 +3014,7 @@ br.lists.spells = {
 
             },
             talents                         = {
-                earthShield                 = 974,
+                -- no longer shared -- earthShield                 = 974,
                 naturesGuardian             = 30884,
                 spiritWolf                  = 260878,
                 staticCharge                = 265046,
